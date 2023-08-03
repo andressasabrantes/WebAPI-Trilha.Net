@@ -33,5 +33,23 @@ namespace api_introducao.Controllers
 
             return Ok(contato);
         }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, Contato contato)
+        {
+            var contatoBanco = _dbcontext.Contatos.Find(id);
+
+            if (contatoBanco == null)
+                return NotFound();
+
+            contatoBanco.Nome = contato.Nome;
+            contatoBanco.Telefone = contato.Telefone;
+            contatoBanco.Ativo = contato.Ativo;
+
+            _dbcontext.Contatos.Update(contatoBanco);
+            _dbcontext.SaveChanges();
+
+            return Ok(contatoBanco);
+        }
     }
 }
