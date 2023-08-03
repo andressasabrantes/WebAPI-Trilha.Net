@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\api-introducao\\api-introducao.csproj": {}
+    "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\api-introducao\\api-introducao.csproj": {
+    "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\api-introducao\\api-introducao.csproj",
+        "projectUniqueName": "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj",
         "projectName": "api-introducao",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\api-introducao\\api-introducao.csproj",
+        "projectPath": "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\api-introducao\\obj\\",
+        "outputPath": "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
