@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B42rmurW0ioocRI5l/xVky3KbaejYltlcEJTw9JZHtwhiXAyw/r2z7Ge0EPrmFRGESrBRah4nFYx4oE1Im6zAQ==",
+  "dgSpecHash": "28+y2G66Q7TliydF9EkY/ghLKIdxDWlUJsqxJ1Iww0PK+I3HYRuQ6YPATS69TV1YqrxO3WFf6TD3Nmmod8MkrA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\WebAPI-Trilha.Net\\api-introducao\\api-introducao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
