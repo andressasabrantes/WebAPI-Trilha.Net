@@ -15,11 +15,22 @@ namespace api_introducao.Controllers
             _dbcontext = dbcontext;
         }
 
-        [HttpPost]
+        [HttpPost("CriarContato")]
         public IActionResult Create(Contato contato)
         {
             _dbcontext.Add(contato);
             _dbcontext.SaveChanges();
+            return Ok(contato);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult ObterPorId(int id)
+        {
+            var contato = _dbcontext.Contatos.Find(id);
+
+            if (contato == null)
+                return NotFound();
+
             return Ok(contato);
         }
     }
