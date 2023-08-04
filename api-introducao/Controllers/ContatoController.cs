@@ -20,7 +20,7 @@ namespace api_introducao.Controllers
         {
             _dbcontext.Add(contato);
             _dbcontext.SaveChanges();
-            return Ok(contato);
+            return CreatedAtAction(nameof(ObterPorId), new { id = contato.Id }, contato);
         }
 
         [HttpGet("{id}")]
